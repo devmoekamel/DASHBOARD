@@ -1,0 +1,20 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    <div class="span3 well">
+        <center>
+        <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="{{request.user.customer.photo.url}}" name="aboutme" width="140" height="140" class="img-circle"></a>
+        <h3>{{request.user.customer.name}}</h3>
+        <em>click my face for more</em>
+		</center>
+    </div>
+    <form   method="post" enctype="multipart/form-data">
+      {%csrf_token%}
+      {{form.as_p}}
+      <input type="submit" name="update">
+    </form>
+
+</div>

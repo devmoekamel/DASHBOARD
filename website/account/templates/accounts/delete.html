@@ -1,0 +1,20 @@
+{%extends 'accounts/main.html'%}
+{%load static %}
+
+
+{%block content%}
+
+<h2>are you sure to DELETE {{item}}</h2>
+<form  action=""method="POST">
+  {%csrf_token%}
+<a href="{%url 'home'%}">cancel</a>
+  <input type="submit" name="submit">
+
+
+
+
+</form>
+
+
+
+{%endblock%}
