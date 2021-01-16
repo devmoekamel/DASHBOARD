@@ -1,4 +1,20 @@
 # website
 
 
-this DASHBOARD maked by django
+DASHBOARD has:
+
+
+-create customer 
+
+
+-create products
+ 
+ 
+- profile
+
+
+
+- register system
+
+
+-login and logout system
