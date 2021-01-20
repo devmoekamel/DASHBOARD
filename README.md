@@ -1,7 +1,7 @@
 # website
 
 
-DASHBOARD (CRM)  has:
+DASHBOARD (CRUD)  has:
 
 
 -create customer 
