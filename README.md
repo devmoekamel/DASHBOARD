@@ -1,4 +1,5 @@
-# website
+# dashboard 
+used tech. : django 
 
 
 DASHBOARD (CRUD)  has:
