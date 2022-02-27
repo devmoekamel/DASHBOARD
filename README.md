@@ -21,11 +21,27 @@ Step One : Clone the repo without checking out a work tree.
 ```
 git clone -n <repo-url>
 ```
-Step Two : check out the file.
+Step Two : open your own cmd and hit : .
 ```
-git checkout master -- path/within/repo/to/file
+python manage.py makemigrations
 ```
 
+Step Two : open your own cmd   and hit : .
+```
+python manage.py migrate
+```
+Step Three :  u should create superuser to can access the admin page that's how so   .
+```
+python manage.py createsuperuser
+```
+Step Four :  Run The Dashboard Projects   .
+```
+python manage.py runserver
+```
+Step Five :  launch your own Browser and chech the Localserver    .
+```
+(by default) http://127.0.0.1:8000/
+```
 
 
 
