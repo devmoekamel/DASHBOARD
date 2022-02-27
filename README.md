@@ -61,6 +61,4 @@ Please read README.md for details on our code of conduct, and the process for su
 No Versioning available.
 
 ## Authors
-```
-* Mohamed kamel
-```
+* **Mohamed kamel**
